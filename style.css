@@ -21,12 +21,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* --------------COLORATION DES ZONES POUR TRAVAILLER -----------------------------*/
-
-
-
 /* --------------------------DEBUT DE PERSONALISATION BALISE HEADER------------------------------*/
-header {
+header{
 	background-color:#333333;
 }
 
@@ -69,22 +65,17 @@ nav ul li a{
 	color: #ffe200;
 	transition-property: text-shadow;
 	transition-duration: 0.1s;
-	
 }
 
 nav ul li:hover{
 	border-top: 3px solid #c39400;
-	background-color:#ffe200;
-		
+	background-color:#ffe200;	
 }
 
 nav ul li a:hover{
 	color:black;
 	text-shadow: 2px 2px 2px black;
 }
-
-
-
 
 /* --------------------------FIN DE PERSONALISATION BALISE NAV------------------------------*/
 
