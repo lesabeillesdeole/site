@@ -1,0 +1,90 @@
+/* RESET CSS type meyer */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* --------------COLORATION DES ZONES POUR TRAVAILLER -----------------------------*/
+
+
+
+/* --------------------------DEBUT DE PERSONALISATION BALISE HEADER------------------------------*/
+header {
+	background-color:#333333;
+}
+
+header h1{
+	font-size:1.2em;
+}
+
+.lien-profile{
+	color:#d2d2d2;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+
+.lien-profile:hover{
+	color:#3389ff;
+}
+
+header h1 span{
+	color:#ffe200;
+	font-size:0.8em;
+}
+
+/* --------------------------DEBUT DE PERSONALISATION BALISE NAV------------------------------*/
+nav ul{
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li{
+	list-style-type: none; /*enlever les puces du menu nav*/
+	padding:10px;
+	border-top: 3px solid #333333;
+	transition-property: background-color;
+	transition-duration: 0.2s;
+}
+nav ul li a{
+	text-decoration: none; /*enlever l'effet souligné des liens*/
+	padding:10px;
+	color: #ffe200;
+	transition-property: text-shadow;
+	transition-duration: 0.1s;
+	
+}
+
+nav ul li:hover{
+	border-top: 3px solid #c3db00;
+	background-color:#ffe200;
+		
+}
+
+nav ul li a:hover{
+	color:black;
+	text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+/* --------------------------FIN DE PERSONALISATION BALISE NAV------------------------------*/
+
