@@ -54,14 +54,14 @@ nav ul{
 
 nav ul li{
 	list-style-type: none; /*enlever les puces du menu nav*/
-	padding:10px;
+	padding:0px;
 	border-top: 3px solid #333333;
 	transition-property: background-color;
 	transition-duration: 0.2s;
 }
 nav ul li a{
 	text-decoration: none; /*enlever l'effet souligné des liens*/
-	padding:10px;
+	padding:20px;
 	color: #ffe200;
 	transition-property: text-shadow;
 	transition-duration: 0.1s;
