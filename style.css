@@ -24,10 +24,13 @@ time, mark, audio, video {
 /* --------------------------DEBUT DE PERSONALISATION BALISE HEADER------------------------------*/
 header{
 	background-color:#333333;
+
 }
 
 header h1{
 	font-size:1.2em;
+	padding-left:15px;/* Décalage du nom du bord de la page */
+	padding-top:10px; /* Décalage du nom du bord de la page */
 }
 
 .lien-profile{
@@ -54,7 +57,8 @@ nav ul{
 
 nav ul li{
 	list-style-type: none; /*enlever les puces du menu nav*/
-	padding:0px;
+	padding-bottom:5px; /*ajustement des boutons de nav en hauteur*/
+	padding-top:5px; /*ajustement des boutons de nav en hauteur*/
 	border-top: 3px solid #333333;
 	transition-property: background-color;
 	transition-duration: 0.2s;
