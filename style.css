@@ -80,6 +80,13 @@ nav ul li a:hover{
 	color:black;
 	text-shadow: 2px 2px 2px black;
 }
-
 /* --------------------------FIN DE PERSONALISATION BALISE NAV------------------------------*/
 
+
+
+
+/* --------------------------DEBUT DE PERSONALISATION bannière------------------------------*/
+picture img{
+	max-width:100%;
+}
+/* --------------------------DEBUT DE PERSONALISATION bannière------------------------------*/
