@@ -91,3 +91,18 @@ picture img{
 	max-width:100%;
 }
 /* --------------------------DEBUT DE PERSONALISATION bannière------------------------------*/
+
+/* --------------------------DEBUT RESPONSIVE DESIGN------------------------------*/
+@media screen and (min-width: 200px) and (max-width: 640px) {
+	nav ul{
+		display: flex;
+		flex-direction: column;
+    		
+	}
+	
+	nav ul li{
+		width:50%;
+    		
+	}
+
+}
