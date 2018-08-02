@@ -22,7 +22,7 @@ time, mark, audio, video {
 }
 
 /* --------------------------DEBUT DE PERSONALISATION BALISE HEADER------------------------------*/
-header{
+header, body{
 	background-color:#333333;
 
 }
@@ -49,6 +49,7 @@ header h1 span{
 	font-size:0.8em;
 }
 
+
 /* --------------------------DEBUT DE PERSONALISATION BALISE NAV------------------------------*/
 nav ul{
 	display: flex;
@@ -66,7 +67,7 @@ nav ul li{
 }
 nav ul li a{
 	text-decoration: none; /*enlever l'effet souligné des liens*/
-	padding:20px;
+	padding:10px;
 	color: #ffe200;
 	transition-property: text-shadow;
 	transition-duration: 0.1s;
@@ -81,6 +82,7 @@ nav ul li a:hover{
 	color:black;
 	text-shadow: 2px 2px 2px black;
 }
+
 /* --------------------------FIN DE PERSONALISATION BALISE NAV------------------------------*/
 
 
@@ -90,19 +92,17 @@ nav ul li a:hover{
 picture img{
 	max-width:100%;
 }
-/* --------------------------DEBUT DE PERSONALISATION bannière------------------------------*/
+/* --------------------------FIN DE PERSONALISATION bannière------------------------------*/
 
 /* --------------------------DEBUT RESPONSIVE DESIGN------------------------------*/
 @media screen and (min-width: 200px) and (max-width: 640px) {
 	nav ul{
 		display: flex;
 		flex-direction: column;
-    		
 	}
 	
-	nav ul li{
-		width:50%;
-    		
+	nav ul li a{
+		color:grey;
 	}
 
 }
